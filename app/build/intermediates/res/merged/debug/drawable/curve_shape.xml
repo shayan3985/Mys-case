@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <stroke
+        android:width="3dp"
+        android:color="#f3542f"
+       />
+
+    <corners
+        android:bottomLeftRadius="40dp"
+        android:bottomRightRadius="40dp"
+        android:topLeftRadius="40dp"
+        android:topRightRadius="40dp"
+        />
+
+
+</shape><!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/drawable/curve_shape.xml -->

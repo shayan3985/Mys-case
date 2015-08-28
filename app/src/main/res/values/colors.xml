@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button1_color">#4F595B</color>
+    <color name="button2_color">#4F595B</color>
+    <color name="onTouch">#00ff00</color>
+    <color name="bg">#ffffbb</color>
+    <color name="grey">#3f2f2f</color>
+    <color name="white">#ffffff</color>
+    <color name="fosfori">#DBFF70</color>
+</resources>

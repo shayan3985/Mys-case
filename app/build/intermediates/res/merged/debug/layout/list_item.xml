@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_items"
+    android:id="@+id/menu_layout"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_text"
+        android:padding="4dp"
+
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout><!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/layout/list_item.xml -->

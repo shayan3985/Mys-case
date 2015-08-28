@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <stroke
+        android:width="3dp"
+        android:color="#ff86bc69"
+        />
+
+    <corners
+        android:bottomLeftRadius="22dp"
+        android:bottomRightRadius="22dp"
+        android:topLeftRadius="22dp"
+        android:topRightRadius="22dp"
+        />
+</shape><!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/drawable/menu_items.xml -->
