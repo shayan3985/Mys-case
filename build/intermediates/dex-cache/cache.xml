@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/deadshot/Documents/git_projects/Mys-case/app/libs/adad-2.9.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5c94c9e323d863a773204b89f88ab1e4ba31fd67">
+        <dex dex="/home/deadshot/Documents/git_projects/Mys-case/app/build/intermediates/pre-dexed/debug/adad-2.9-7750822ce6da24313971dd5dd1edbbe30044b9b4.jar" />
+    </item>
+
+</items>

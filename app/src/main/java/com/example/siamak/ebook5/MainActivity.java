@@ -21,6 +21,8 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import ir.adad.Adad;
+
 public class MainActivity extends Activity {
 
     ImageButton mImageButton_left;
@@ -30,6 +32,7 @@ public class MainActivity extends Activity {
     LinearLayout linearLayout;
     OpenNewPage listener;
     ImageView imageView;
+    Adad adad;
 
     @Override
     protected void onStart() {
@@ -59,6 +62,7 @@ public class MainActivity extends Activity {
                 Request_Handeler(pos);
             }
         };
+        adad.setDisabled(true);
 
 
 
