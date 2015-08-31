@@ -62,6 +62,7 @@ public class MainActivity extends Activity {
                 Request_Handeler(pos);
             }
         };
+        //set enable for ads
         adad.setDisabled(true);
 
 
