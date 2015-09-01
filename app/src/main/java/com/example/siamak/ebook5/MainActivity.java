@@ -17,9 +17,11 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import ir.adad.Adad;
 
@@ -178,7 +180,11 @@ public class    MainActivity extends Activity {
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("منابع");
-                    builder.setMessage(getResources().getString(R.string.source));
+                    final TextView s1= new TextView(MainActivity.this);
+
+                    s1.setText("www.toptenz.net\nadd next here");
+
+                    builder.setView(s1);
 
                     builder.setNegativeButton("لغو", new DialogInterface.OnClickListener() {
                         @Override

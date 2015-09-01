@@ -179,7 +179,6 @@ public final class R {
         public static final int page9_text4=0x7f090045;
         public static final int page9_text5=0x7f090046;
         public static final int page9_text6=0x7f090047;
-        public static final int source=0x7f090048;
     }
     public static final class style {
         /**  Customize your theme here. 
