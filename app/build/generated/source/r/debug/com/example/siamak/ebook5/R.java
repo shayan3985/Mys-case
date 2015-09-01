@@ -135,6 +135,7 @@ public final class R {
         public static final int page12_text4=0x7f090015;
         public static final int page12_text5=0x7f090016;
         public static final int page12_text6=0x7f090017;
+<<<<<<< HEAD
         public static final int page13_text1=0x7f090018;
         public static final int page13_text2=0x7f090019;
         public static final int page13_text3=0x7f09001a;
@@ -190,6 +191,56 @@ public final class R {
         public static final int page9_text5=0x7f09004c;
         public static final int page9_text6=0x7f09004d;
         public static final int source=0x7f09004e;
+=======
+        public static final int page1_label=0x7f090018;
+        public static final int page1_text1=0x7f090019;
+        public static final int page1_text2=0x7f09001a;
+        public static final int page1_text3=0x7f09001b;
+        public static final int page1_text4=0x7f09001c;
+        public static final int page2_label=0x7f09001d;
+        public static final int page2_text1=0x7f09001e;
+        public static final int page2_text2=0x7f09001f;
+        public static final int page2_text3=0x7f090020;
+        public static final int page3_label=0x7f090021;
+        public static final int page3_text1=0x7f090022;
+        public static final int page3_text2=0x7f090023;
+        public static final int page3_text3=0x7f090024;
+        public static final int page3_text4=0x7f090025;
+        public static final int page4_label=0x7f090026;
+        public static final int page4_text1=0x7f090027;
+        public static final int page4_text2=0x7f090028;
+        public static final int page4_text3=0x7f090029;
+        public static final int page4_text4=0x7f09002a;
+        public static final int page5_label=0x7f09002b;
+        public static final int page5_text1=0x7f09002c;
+        public static final int page5_text2=0x7f09002d;
+        public static final int page5_text3=0x7f09002e;
+        public static final int page5_text4=0x7f09002f;
+        public static final int page5_text5=0x7f090030;
+        public static final int page6_label=0x7f090031;
+        public static final int page6_text1=0x7f090032;
+        public static final int page6_text2=0x7f090033;
+        public static final int page6_text3=0x7f090034;
+        public static final int page6_text4=0x7f090035;
+        public static final int page7_label=0x7f090036;
+        public static final int page7_text1=0x7f090037;
+        public static final int page7_text2=0x7f090038;
+        public static final int page7_text3=0x7f090039;
+        public static final int page7_text4=0x7f09003a;
+        public static final int page7_text5=0x7f09003b;
+        public static final int page8_label=0x7f09003c;
+        public static final int page8_text1=0x7f09003d;
+        public static final int page8_text2=0x7f09003e;
+        public static final int page8_text3=0x7f09003f;
+        public static final int page8_text4=0x7f090040;
+        public static final int page9_label=0x7f090041;
+        public static final int page9_text1=0x7f090042;
+        public static final int page9_text2=0x7f090043;
+        public static final int page9_text3=0x7f090044;
+        public static final int page9_text4=0x7f090045;
+        public static final int page9_text5=0x7f090046;
+        public static final int page9_text6=0x7f090047;
+>>>>>>> origin/master
     }
     public static final class style {
         /**  Customize your theme here. 

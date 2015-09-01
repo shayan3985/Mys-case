@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/siamak/Documents/GitHub/Mys-case/app/src/main/res/values/list_items_string.xml -->
+    <!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/values/list_items_string.xml -->
     <eat-comment/>
     <string-array name="index_list">
         <item>شاهزاده خانم ایرانی</item>
@@ -23,7 +23,7 @@
 
 
     </string-array>
-    <!-- From: file:/C:/Users/siamak/Documents/GitHub/Mys-case/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="bg">#ffffbb</color>
     <color name="button1_color">#4F595B</color>
@@ -32,11 +32,11 @@
     <color name="grey">#3f2f2f</color>
     <color name="onTouch">#00ff00</color>
     <color name="white">#ffffff</color>
-    <!-- From: file:/C:/Users/siamak/Documents/GitHub/Mys-case/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/siamak/Documents/GitHub/Mys-case/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">پرونده  های مرموز</string>
     <string name="back">بازگشت</string>
@@ -238,8 +238,7 @@
     <string name="page9_text6">
         تمام این داستان‌ها در حد افسانه‌های محلی باقی مانده بود تا زمانی که مومیایی سن پدرو کشف و مهر تأییدی بر صحت آنها گذارده شد. مومیایی سن پدرو برای سال‌ها درون ویترین شیشه‌ای در یک داروخانه و به عنوان جاذبه‌ای قابل توجه در معرض دید عموم قرار داشت. 7 جولای 1979 مقاله‌ای در روزنامه‌ی محلی کسپر تریبون (Casper tribune)  به چاپ رسید که خبر از فروش مومیایی به فردی به نام لئونارد وادلر(Leonard Wadler)، تاجری از اهالی نیویورک می‌داد. از آن زمان این مومیایی دیگر هرگز دیده نشد. تا زمانی که این مومیایی پیدا نشود، نمی‌توان از صحت و سقم این اخبار مطمئن بود، از این رو جایزه‌ای ده هزار دلاری برای یابنده‌ی آن در نظر گرفته شده است.
     </string>
-    <string name="source">add source here</string>
-    <!-- From: file:/C:/Users/siamak/Documents/GitHub/Mys-case/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->

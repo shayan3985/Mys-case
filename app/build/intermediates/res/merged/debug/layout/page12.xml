@@ -99,7 +99,7 @@
                 android:paddingLeft="9dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/page11_text1"
+                android:text="@string/page12_text1"
                 android:textSize="22sp"
                 android:textColor="@color/white"
                 android:id="@+id/page1_text1"
@@ -113,7 +113,7 @@
                 android:paddingLeft="9dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/page11_text2"
+                android:text="@string/page12_text2"
                 android:textSize="22sp"
                 android:textColor="@color/white"
                 android:id="@+id/page1_text2"
@@ -124,7 +124,7 @@
                 android:paddingLeft="9dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/page11_text3"
+                android:text="@string/page12_text3"
                 android:textSize="22sp"
                 android:textColor="@color/white"
                 android:layout_gravity="right"
@@ -146,7 +146,7 @@
                 android:paddingLeft="9dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/page11_text4"
+                android:text="@string/page12_text4"
                 android:textSize="22sp"
                 android:textColor="@color/white"
                 android:id="@+id/page1_text4"
@@ -158,7 +158,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:text="@string/page11_text5"
+                android:text="@string/page12_text5"
                 android:textColor="@color/white"
                 android:layout_gravity="right"
                 android:id="@+id/page1_text5"
@@ -170,7 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="22sp"
-                android:text="@string/page11_text6"
+                android:text="@string/page12_text6"
                 android:textColor="@color/white"
                 android:layout_gravity="right"
                 android:id="@+id/page1_text6"
@@ -185,4 +185,4 @@
                 android:scaleType="fitXY"/>
         </LinearLayout>
     </ScrollView>
-</LinearLayout><!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/layout/page11.xml -->
+</LinearLayout><!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/layout/page12.xml -->
