@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/grey"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+        <FrameLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/left_button_shape"
+                android:id="@+id/image_button_left_page1"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/back"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:clickable="false"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/right_button_shape"
+                android:id="@+id/image_button_right_page1"
+
+
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/contactUs"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:clickable="false"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:id="@+id/page1_scroll"
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/scroll_page1_id"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:focusable="true">
+            <ImageView
+
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/page1_image1"
+                android:padding="0dp"
+                android:layout_gravity="fill_horizontal"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                android:paddingLeft="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page11_text1"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:id="@+id/page1_text1"
+                />
+
+
+
+            <TextView
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                android:paddingLeft="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page11_text2"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:id="@+id/page1_text2"
+                />
+            <TextView
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                android:paddingLeft="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page11_text3"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:id="@+id/page1_text3"
+                />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/page1_image2"
+                android:layout_gravity="fill_horizontal"                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"/>
+
+
+            <TextView
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                android:paddingLeft="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page11_text4"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:id="@+id/page1_text4"
+                />
+            <TextView
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                android:paddingLeft="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/page11_text5"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:id="@+id/page1_text5"
+                />
+            <TextView
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                android:paddingLeft="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/page11_text6"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                android:id="@+id/page1_text6"
+                />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/page1_image3"
+                android:layout_gravity="fill_horizontal"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
