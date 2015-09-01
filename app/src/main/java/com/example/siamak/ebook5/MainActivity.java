@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-        //overridePendingTransition(R.anim.abc_slide_in_top,R.anim.abc_slide_out_bottom);
+        //overridePendingTransition(android.R.anim.cycle_interpolator, android.R.anim.cycle_interpolator);
 
     }
 
@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(R.color.onTouch, PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(R.color.onTouch), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
@@ -108,7 +108,7 @@ public class MainActivity extends Activity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(R.color.onTouch, PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(R.color.onTouch), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
