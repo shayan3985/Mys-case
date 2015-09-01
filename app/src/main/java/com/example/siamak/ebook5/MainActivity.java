@@ -67,6 +67,7 @@ public class MainActivity extends Activity {
 
 
 
+
         try {
 
             customAdapter =new CustomAdapter(getApplicationContext(),index,listener);
@@ -171,65 +172,12 @@ public class MainActivity extends Activity {
 
 
     public void Request_Handeler(int pos){
-        switch (pos) {
-            case 0:
-                Intent intent1 = new Intent(MainActivity.this, page1.class);
-                startActivity(intent1);
-                break;
-            case 1:
-                Intent intent2 = new Intent(MainActivity.this, page2.class);
-                startActivity(intent2);
-                break;
-            case 2:
-                Intent intent3 = new Intent(MainActivity.this, page3.class);
-                startActivity(intent3);
-                break;
-            case 3:
-                Intent intent4 = new Intent(MainActivity.this, page4.class);
-                startActivity(intent4);
-                break;
 
-            case 4:
-                Intent intent5 = new Intent(MainActivity.this, page5.class);
-                startActivity(intent5);
-                break;
-            case 5:
-                Intent intent6 = new Intent(MainActivity.this, page6.class);
-                startActivity(intent6);
-                break;
-            case 6:
-                Intent intent7 = new Intent(MainActivity.this, page7.class);
-                startActivity(intent7);
-                break;
-            case 7:
-                Intent intent8 = new Intent(MainActivity.this, page8.class);
-                startActivity(intent8);
-                break;
-            case 8:
-                Intent intent9 = new Intent(MainActivity.this, page9.class);
-                startActivity(intent9);
-                break;
-            case 9:
-                Intent intent10 = new Intent(MainActivity.this, page10.class);
-                startActivity(intent10);
-                break;
-            case 10:
-                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle(getResources().getString(R.string.msg2));
-                builder.setMessage(getResources().getString(R.string.msg3));
-                //final EditText editText= new EditText(MainActivity.this);
-                //builder.setView(editText);
+                Intent intent = new Intent(MainActivity.this, page1.class);
+                intent.putExtra("pagenumber",pos);//start  with 0
+                startActivity(intent);
 
 
-                builder.setNegativeButton("لغو", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                });
-                builder.create().show();
-                break;
-        }
     }
 
 

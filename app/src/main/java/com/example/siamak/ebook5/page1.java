@@ -37,6 +37,9 @@ public class page1 extends Activity{
     TextView second_text_page1;
     TextView third_text_page1;
     TextView fourth_text_page1;
+    TextView fifth_text_page1;
+    TextView sixth_text_page1;
+
     LinearLayout scrollView;
     ScrollView page1_scroll;
 
@@ -56,6 +59,8 @@ public class page1 extends Activity{
     PointF mid = new PointF();
     float oldDist = 1f;
     ImageView imageView_j;
+    ImageView imageView_jj;
+    ImageView imageView_jjj;
 
     @Override
     protected void onStart() {
@@ -67,8 +72,44 @@ public class page1 extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page1);
         Intent intent = getIntent();
+        switch (intent.getIntExtra("pagenumber",0)){
+            case 0:
+                setContentView(R.layout.page1);
+                imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image1);
+                break;
+            case 1:
+                setContentView(R.layout.page2);
+                break;
+            case 2:
+                setContentView(R.layout.page3);
+                break;
+            case 3:
+                setContentView(R.layout.page4);
+                break;
+            case 4:
+                setContentView(R.layout.page5);
+                break;
+            case 5:
+                setContentView(R.layout.page6);
+                break;
+            case 6:
+                setContentView(R.layout.page7);
+                break;
+            case 7:
+                setContentView(R.layout.page8);
+                break;
+            case 8:
+                setContentView(R.layout.page9);
+                break;
+            case 9:
+                setContentView(R.layout.page10);
+                break;
+        }
+
         mImageButton_left = (ImageButton) findViewById(R.id.image_button_left_page1);
         mImageButton_right = (ImageButton) findViewById(R.id.image_button_right_page1);
         zoomControls = new ZoomControls(getApplicationContext());
@@ -77,10 +118,12 @@ public class page1 extends Activity{
         second_text_page1= (TextView)findViewById(R.id.page1_text2);
         third_text_page1= (TextView)findViewById(R.id.page1_text3);
         fourth_text_page1= (TextView)findViewById(R.id.page1_text4);
+        fifth_text_page1= (TextView)findViewById(R.id.page1_text5);
+        sixth_text_page1= (TextView)findViewById(R.id.page1_text6);
+
         page1_scroll =(ScrollView)findViewById(R.id.page1_scroll);
 
-        imageView_j = (ImageView)findViewById(R.id.page1_image1);
-        imageView_j.setImageResource(R.drawable.image1);
+
         ;
 
         try {
@@ -251,10 +294,12 @@ public class page1 extends Activity{
                     Log.e("final scale", final_scale + "");
                     Log.e("min"+minFont, maxFont + "max");
 
-                    first_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX,final_scale);
+                    first_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX, final_scale);
                     second_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX,final_scale);
                     third_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX,final_scale);
                     fourth_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX,final_scale);
+                    fifth_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX,final_scale);
+                    sixth_text_page1.setTextSize(TypedValue.COMPLEX_UNIT_PX,final_scale);
 
                 }else {
                     Log.d("overflow",scale+"");

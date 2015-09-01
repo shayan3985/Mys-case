@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:2:1-79:12
+ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidMa
 	android:name
 		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:7:5-77:19
+ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:7:5-33:19
 	android:label
 		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:10:9-41
 	android:allowBackup
@@ -46,89 +46,17 @@ ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidMa
 activity#com.example.siamak.ebook5.page1
 ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:21:9-26:20
 	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:22:13-48
+		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:22:13-30
 	android:parentActivityName
 		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:23:13-55
 	android:name
 		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:21:19-40
-activity#com.example.siamak.ebook5.page2
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:27:9-31:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:28:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:29:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:27:19-40
-activity#com.example.siamak.ebook5.page3
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:32:9-36:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:33:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:34:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:32:19-40
-activity#com.example.siamak.ebook5.page4
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:37:9-41:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:38:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:39:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:37:19-40
-activity#com.example.siamak.ebook5.page5
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:42:9-46:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:43:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:44:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:42:19-40
-activity#com.example.siamak.ebook5.page6
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:47:9-51:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:48:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:49:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:47:19-40
-activity#com.example.siamak.ebook5.page7
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:52:9-56:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:53:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:54:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:52:19-40
-activity#com.example.siamak.ebook5.page8
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:57:9-61:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:58:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:59:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:57:19-40
-activity#com.example.siamak.ebook5.page9
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:62:9-66:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:63:13-48
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:64:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:62:19-40
-activity#com.example.siamak.ebook5.page10
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:67:9-71:20
-	android:label
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:68:13-49
-	android:parentActivityName
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:69:13-55
-	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:67:19-41
 activity#ir.adad.AdadActivity
-ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:72:9-75:20
+ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:28:9-31:20
 	android:theme
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:74:13-56
+		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:73:13-48
+		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:29:13-48
 uses-sdk
 INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion

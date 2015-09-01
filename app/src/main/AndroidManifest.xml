@@ -19,56 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".page1"
-            android:label="@string/page1_label"
+            android:label=" "
             android:parentActivityName=".MainActivity">
 
 
         </activity>
-        <activity android:name=".page2"
-            android:label="@string/page2_label"
-            android:parentActivityName=".MainActivity">
 
-        </activity>
-        <activity android:name=".page3"
-            android:label="@string/page3_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page4"
-            android:label="@string/page4_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page5"
-            android:label="@string/page5_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page6"
-            android:label="@string/page6_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page7"
-            android:label="@string/page7_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page8"
-            android:label="@string/page8_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page9"
-            android:label="@string/page9_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-        <activity android:name=".page10"
-            android:label="@string/page10_label"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
         <activity
             android:name="ir.adad.AdadActivity"
             android:theme="@android:style/Theme.Dialog">
