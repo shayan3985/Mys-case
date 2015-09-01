@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
             }
         };
         //set enable for ads
-        adad.setDisabled(false);
+        adad.setDisabled(true);
 
 
 
