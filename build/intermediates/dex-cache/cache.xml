@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/deadshot/Documents/git_projects/Mys-case/app/libs/adad-2.9.jar"
+        jar="C:\Users\siamak\Documents\GitHub\Mys-case\app\libs\adad-2.9.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="5c94c9e323d863a773204b89f88ab1e4ba31fd67">
-        <dex dex="/home/deadshot/Documents/git_projects/Mys-case/app/build/intermediates/pre-dexed/debug/adad-2.9-7750822ce6da24313971dd5dd1edbbe30044b9b4.jar" />
+        <dex dex="C:\Users\siamak\Documents\GitHub\Mys-case\app\build\intermediates\pre-dexed\debug\adad-2.9-9e47a9744f970b9ccc068d61f72c2d42aa0c739f.jar" />
     </item>
 
 </items>
