@@ -179,7 +179,12 @@
     <string name="page9_text6">
         تمام این داستان‌ها در حد افسانه‌های محلی باقی مانده بود تا زمانی که مومیایی سن پدرو کشف و مهر تأییدی بر صحت آنها گذارده شد. مومیایی سن پدرو برای سال‌ها درون ویترین شیشه‌ای در یک داروخانه و به عنوان جاذبه‌ای قابل توجه در معرض دید عموم قرار داشت. 7 جولای 1979 مقاله‌ای در روزنامه‌ی محلی کسپر تریبون (Casper tribune)  به چاپ رسید که خبر از فروش مومیایی به فردی به نام لئونارد وادلر(Leonard Wadler)، تاجری از اهالی نیویورک می‌داد. از آن زمان این مومیایی دیگر هرگز دیده نشد. تا زمانی که این مومیایی پیدا نشود، نمی‌توان از صحت و سقم این اخبار مطمئن بود، از این رو جایزه‌ای ده هزار دلاری برای یابنده‌ی آن در نظر گرفته شده است.
     </string>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/siamak/Documents/GitHub/Mys-case/app/src/main/res/values/styles.xml -->
+=======
+    <string name="source">add source here</string>
+    <!-- From: file:/home/deadshot/Documents/git_projects/Mys-case/app/src/main/res/values/styles.xml -->
+>>>>>>> origin/master
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->

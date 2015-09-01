@@ -21,6 +21,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RemoteViewsService;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.ZoomControls;
@@ -65,7 +66,8 @@ public class page1 extends Activity{
     @Override
     protected void onStart() {
         super.onStart();
-        //overridePendingTransition(R.anim.abc_slide_in_top,R.anim.abc_slide_out_bottom);
+        //overridePendingTransition(android.R.anim.bounce_interpolator, android.R.anim.bounce_interpolator);
+
 
     }
 
@@ -136,7 +138,7 @@ public class page1 extends Activity{
                 setContentView(R.layout.page10);imageView_j = (ImageView)findViewById(R.id.page1_image1);
                 imageView_jj = (ImageView)findViewById(R.id.page1_image2);
                 imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
-                imageView_j.setImageResource(R.drawable.image10);
+                imageView_j.setImageResource(R.drawable.image1);
                 break;
         }
 
@@ -172,7 +174,7 @@ public class page1 extends Activity{
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(R.color.onTouch, PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(R.color.grey), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
@@ -191,7 +193,7 @@ public class page1 extends Activity{
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(R.color.onTouch, PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(R.color.grey), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
