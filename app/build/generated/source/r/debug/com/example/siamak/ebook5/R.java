@@ -89,12 +89,12 @@ public final class R {
         public static final int page10_text3=0x7f0c001c;
         public static final int page10_text4=0x7f0c001d;
         public static final int page1_image1=0x7f0c000c;
-        public static final int page1_image2=0x7f0c000f;
+        public static final int page1_image2=0x7f0c0010;
         public static final int page1_image3=0x7f0c0014;
         public static final int page1_scroll=0x7f0c000a;
         public static final int page1_text1=0x7f0c000d;
         public static final int page1_text2=0x7f0c000e;
-        public static final int page1_text3=0x7f0c0010;
+        public static final int page1_text3=0x7f0c000f;
         public static final int page1_text4=0x7f0c0011;
         public static final int page1_text5=0x7f0c0012;
         public static final int page1_text6=0x7f0c0013;

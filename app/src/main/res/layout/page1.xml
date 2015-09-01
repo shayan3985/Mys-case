@@ -118,14 +118,6 @@
                 android:textColor="@color/white"
                 android:id="@+id/page1_text2"
                 />
-
-            <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/page1_image2"
-                android:layout_gravity="fill_horizontal"                android:adjustViewBounds="true"
-                android:cropToPadding="false"
-                android:scaleType="fitXY"/>
             <TextView
                 android:paddingRight="9dp"
                 android:paddingTop="9dp"
@@ -138,6 +130,15 @@
                 android:layout_gravity="right"
                 android:id="@+id/page1_text3"
                 />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/page1_image2"
+                android:layout_gravity="fill_horizontal"                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"/>
+
 
             <TextView
                 android:paddingRight="9dp"

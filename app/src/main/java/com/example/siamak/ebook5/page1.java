@@ -82,31 +82,61 @@ public class page1 extends Activity{
                 imageView_j.setImageResource(R.drawable.image1);
                 break;
             case 1:
-                setContentView(R.layout.page2);
+                setContentView(R.layout.page2);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image2);
                 break;
             case 2:
-                setContentView(R.layout.page3);
+                setContentView(R.layout.page3);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image3);
                 break;
             case 3:
-                setContentView(R.layout.page4);
+                setContentView(R.layout.page4);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image4);
                 break;
             case 4:
-                setContentView(R.layout.page5);
+                setContentView(R.layout.page5);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image5);
                 break;
             case 5:
-                setContentView(R.layout.page6);
+                setContentView(R.layout.page6);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image6);
                 break;
             case 6:
-                setContentView(R.layout.page7);
+                setContentView(R.layout.page7);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image7part1);
+                imageView_jj.setImageResource(R.drawable.image7part2);
+                imageView_jjj.setImageResource(R.drawable.image7part3);
                 break;
             case 7:
-                setContentView(R.layout.page8);
+                setContentView(R.layout.page8);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image8);
                 break;
             case 8:
-                setContentView(R.layout.page9);
+                setContentView(R.layout.page9);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image9part1);
+                imageView_j.setImageResource(R.drawable.image9part2);
                 break;
             case 9:
-                setContentView(R.layout.page10);
+                setContentView(R.layout.page10);imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image10);
                 break;
         }
 
