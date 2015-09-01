@@ -23,7 +23,7 @@ import java.util.Arrays;
 
 import ir.adad.Adad;
 
-public class MainActivity extends Activity {
+public class    MainActivity extends Activity {
 
     ImageButton mImageButton_left;
     ImageButton mImageButton_right;
