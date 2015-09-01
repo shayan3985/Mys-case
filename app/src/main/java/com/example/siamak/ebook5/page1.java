@@ -167,6 +167,15 @@ public class page1 extends Activity{
                 imageView_jj.setImageResource(R.drawable.image12part2);
                 imageView_jjj.setImageResource(R.drawable.image12part3);
                 break;
+            case 12:
+                setContentView(R.layout.page13);
+                imageView_j = (ImageView)findViewById(R.id.page1_image1);
+                imageView_jj = (ImageView)findViewById(R.id.page1_image2);
+                imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
+                imageView_j.setImageResource(R.drawable.image13part1);
+                imageView_jj.setImageResource(R.drawable.image13part2);
+                imageView_jjj.setImageResource(R.drawable.image13part3);
+                break;
         }
 
         mImageButton_left = (ImageButton) findViewById(R.id.image_button_left_page1);
