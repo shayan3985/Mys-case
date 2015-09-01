@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
             }
         };
         //set enable for ads
-        adad.setDisabled(true);
+        adad.setDisabled(false);
 
 
 
@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(getResources().getColor(R.color.onTouch), PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(android.R.color.black), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
@@ -108,7 +108,7 @@ public class MainActivity extends Activity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(getResources().getColor(R.color.onTouch), PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(android.R.color.black), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
@@ -173,9 +173,27 @@ public class MainActivity extends Activity {
 
     public void Request_Handeler(int pos){
 
-                Intent intent = new Intent(MainActivity.this, page1.class);
-                intent.putExtra("pagenumber",pos);//start  with 0
-                startActivity(intent);
+                if (pos==customAdapter.getCount()-1){
+
+
+                    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                    builder.setTitle("منابع");
+                    builder.setMessage(getResources().getString(R.string.source));
+
+                    builder.setNegativeButton("لغو", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+                    builder.create().show();
+
+
+                }else {
+                    Intent intent = new Intent(MainActivity.this, page1.class);
+                    intent.putExtra("pagenumber", pos);//start  with 0
+                    startActivity(intent);
+                }
 
 
     }

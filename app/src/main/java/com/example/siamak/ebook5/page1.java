@@ -174,7 +174,7 @@ public class page1 extends Activity{
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(R.color.onTouch, PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(R.color.grey), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
@@ -193,7 +193,7 @@ public class page1 extends Activity{
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()){
                     case MotionEvent.ACTION_DOWN:
-                        v.getBackground().setColorFilter(R.color.onTouch, PorterDuff.Mode.SRC_OVER);
+                        v.getBackground().setColorFilter(getResources().getColor(R.color.grey), PorterDuff.Mode.SRC_OVER);
                         v.invalidate();
                         break;
                     case MotionEvent.ACTION_UP:
