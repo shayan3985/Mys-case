@@ -155,7 +155,7 @@ public class page1 extends Activity{
                 imageView_jj = (ImageView)findViewById(R.id.page1_image2);
                 imageView_jjj = (ImageView)findViewById(R.id.page1_image3);
                 imageView_j.setImageResource(R.drawable.image11part1);
-                imageView_jj.setImageResource(R.drawable.image11part2);
+                imageView_jj.setImageResource(R.drawable.image11part2           );
                 break;
         }
 
