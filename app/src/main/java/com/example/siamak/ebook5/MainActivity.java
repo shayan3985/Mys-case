@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -65,7 +66,9 @@ public class    MainActivity extends Activity {
             }
         };
         //set enable for ads
-        adad.setDisabled(true);
+        adad.setDisabled(false);
+
+
 
 
 
@@ -182,7 +185,7 @@ public class    MainActivity extends Activity {
                     builder.setTitle("منابع");
                     final TextView s1= new TextView(MainActivity.this);
 
-                    s1.setText("www.toptenz.net\nadd next here");
+                    s1.setText("www.toptenz.net\nadd next here11");
 
                     builder.setView(s1);
 
@@ -202,6 +205,10 @@ public class    MainActivity extends Activity {
                 }
 
 
+    }
+
+    public void thisfunc(View view){
+        adad.setDisabled(true);
     }
 
 

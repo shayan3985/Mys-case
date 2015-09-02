@@ -118,12 +118,17 @@
                 android:orientation="horizontal"
                 android:layout_weight="1"
                 >
+
                 <ir.adad.AdView
                     android:layout_gravity="bottom"
                     android:id="@+id/ad"
+                    android:onClick="thisfunc"
+
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     token="ca21960513d94286ae342c22f2b44095" />
+
+            
             </LinearLayout>
 
         </LinearLayout>
