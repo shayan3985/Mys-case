@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:2:1-35:12
+	xmlns:android
+		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:2:11-69
 	package
 		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml
@@ -8,8 +10,6 @@ ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidMa
 	android:versionName
 		INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml
 		INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
 		INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml
 		INJECTED from /home/deadshot/Documents/git_projects/Mys-case/app/src/main/AndroidManifest.xml
